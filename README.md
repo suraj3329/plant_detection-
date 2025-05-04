@@ -34,7 +34,7 @@ git clone https://github.com/yourusername/plant-detection.git
 cd plant-detection
 2.install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 ##🚀 Usage
 **Training the Model**
 ```bash
