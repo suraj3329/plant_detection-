@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.8%2B-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A deep learning-based computer vision system for automatic classification of 18 different plant species from images.
 
