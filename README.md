@@ -37,7 +37,7 @@ cd plant-detection
 ```bash
 pip install -r requirements.txt
 ```
-##🚀 Usage
+## 🚀 Usage
 **Training the Model**
 ```bash
 python src/train.py --config configs/train_config.yaml
@@ -51,22 +51,19 @@ python src/predict.py --image_path samples/test_image.jpg
 jupyter notebook notebooks/
 ```
 ## 📊 Dataset
-- Total images: 2,040
-- Train/Valid/Test split: 70%/15%/15%
-- Image types: High-resolution photos of leaves, flowers, and full plants
-  Sample distribution:
+- **Total images:** 2,040
+- **Train/Valid/Test split:** 70%/15%/15%
+- **Image types:** High-resolution photos of leaves, flowers, and full plants
+
+Sample distribution:
 ```
-Rose: 138    Tulsi: 162    Guava: 82     Mango: 126
-Lemon: 148   Pepper: 78    Neem: 140     Papaya: 142  
-Mint: 145    Pipal: 95     Eucalyptus:45 Jasmine:119
-Ashoka:115   Aloevera:122  Amruthaballi:129 Bamboo:92
-Ashwagandha:74 Amla:88
+Rose: 138       Tulsi: 162    Guava: 82        Mango: 126
+Lemon: 148      Pepper: 78    Neem: 140        Papaya: 142  
+Mint: 145       Pipal: 95     Eucalyptus:45    Jasmine:119
+Ashoka:115      Aloevera:122  Amruthaballi:129 Bamboo:92
+Ashwagandha:74  Amla:88
 ```
-##📈 Performance
-|Model	     | Accuracy|Precision	|Recall	|F1-Score
-|ResNet18	   | 92.5%	 |0.93	    |0.92	  |0.92
-|EfficientNet|	94.1%	 |0.94	    |0.94	  |0.94
-##🏗️ Project Structure
+## 🏗️ Project Structure
 ```plant-detection/
 ├── data/                # Dataset directories
 ├── configs/             # Configuration files
@@ -81,13 +78,13 @@ Ashwagandha:74 Amla:88
 ├── requirements.txt     # Dependencies
 └── README.md            # This file
 ```
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 - Dataset collectors and annotators
 - PyTorch development team
 - Open-source computer vision community
